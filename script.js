@@ -4,7 +4,6 @@ var generateBtn = document.querySelector("#generate");
 function generatePassword() {
 
   var length = Number(prompt("Enter the length of the password"));
-
   var password = "";
   var passwordChars = "";
 
@@ -21,11 +20,6 @@ function generatePassword() {
     numbers: "0123456789",
     special: "!@#$%^&*()",
   }
-
-  
-  
-
-
 
   // add criteria to select
   if (confirm("Click OK to include lowercase letters?")) {
