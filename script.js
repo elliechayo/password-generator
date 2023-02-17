@@ -23,16 +23,16 @@ function generatePassword() {
   }
 
   // add criteria to select
-  if (confirm("Click OK to include lowercase letters?")) {
+  if (confirm("Click OK to include lowercase letters")) {
     passwordChars += characters.lowercase;
   }
-  if (confirm("Click OK to include uppercase letters?")) {
+  if (confirm("Click OK to include uppercase letters")) {
     passwordChars += characters.uppercase;
   }
-  if (confirm("Click OK to include numbers?")) {
+  if (confirm("Click OK to include numbers")) {
     passwordChars += characters.numbers;
   }
-  if (confirm("Click OK to include Symbols?")) {
+  if (confirm("Click OK to include special characters")) {
     passwordChars += characters.special;
   }
 
