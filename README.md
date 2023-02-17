@@ -57,7 +57,7 @@ The following image shows the web application appearance and functionality once 
 
 ![initial disply](/assests/image-1.png)
 
-### length of password prompt
+### Length of password prompt
 
 ![length of password prompt](/assests/image-2.png)
 
