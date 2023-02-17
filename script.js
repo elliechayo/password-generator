@@ -6,6 +6,7 @@ function generatePassword() {
   var length = Number(prompt("Enter the length of the password"));
   var password = "";
   var passwordChars = "";
+  var password = "";
 
   // length validation
   if (!length || length < 8 || length > 128) {
